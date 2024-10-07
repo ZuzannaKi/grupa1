@@ -6,14 +6,13 @@ The aim of the project is to calculate the difference between height of Geoporta
 
 Division of the tasks:
 
-Zuzanna Kiełbasa:
-    -
-Katarzyna Zabdyrska:
-    - synchronization of the code's parts
-Paulina Kępa:
-    - update of README file
-Patryk Susz:
-    - 
-Jakub Niemiec:
-    - writting a code of height difference calculations and chart
+Zuzanna Kiełbasa: -
+
+Katarzyna Zabdyrska: - synchronization of the code's parts
+
+Paulina Kępa: - update of README file
+
+Patryk Susz: - 
+
+Jakub Niemiec: - writting a code of height difference calculations and chart
     
