@@ -1,15 +1,15 @@
-Lab2:\n
-Instrukcja:\n
-\n
-  Zadania:\n
-    Zuzanna Kiełbasa:\n
-      -\n
-    Katarzyna Zabdyrska:\n
-      -\n
-    Paulina Kępa:\n
-      -\n
-    Patryk Susz\n
-      - \n
-    Jakub Niemiec:\n
-      -\n
+Lab2:
+Instrukcja:
+
+  Zadania:
+    Zuzanna Kiełbasa:
+      -
+    Katarzyna Zabdyrska:
+      -
+    Paulina Kępa:
+      -
+    Patryk Susz
+      - 
+    Jakub Niemiec:
+      -
     
