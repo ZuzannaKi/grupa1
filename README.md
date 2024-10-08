@@ -15,7 +15,7 @@
 
 **Division of the tasks:**
 - Zuzanna Kiełbasa:
-- Katarzyna Zabdyrska:
+- Katarzyna Zabdyrska: coordination of workflow
 - Paulina Kępa: update of README file
 - Patryk Susz: 
 - Jakub Niemiec: writting a main code of height difference calculations and chart
