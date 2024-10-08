@@ -4,24 +4,33 @@ import pandas as pd
 
 """Read data"""
 dataset = pd.read_csv(u"C:/Users/KN/Downloads/z_geoportal_up42.csv")
+df = dataset.copy()
+df = df.apply(np.round,args=(2,))
+df = df.astype("float32")
+df.to_pickle("pre_proc_bin")
+
+'''Read pickled data'''
+
+data = pd.read_pickle("pre_proc_bin")
+
 
 '''Calculate differences between Z and other height values'''
-dataset=dataset.assign(geoZ = dataset["geoportal1"] - dataset["Z"])
-dataset=dataset.assign(upZ = dataset["up421"] - dataset["Z"])
+data=data.assign(geoZ = data["geoportal1"] - data["Z"])
+data=data.assign(upZ = data["up421"] - data["Z"])
 
 '''Plotting the results'''
 
-plt.scatter(dataset["X"],dataset["Y"],c=dataset["geoZ"],s=0.01,marker="s",cmap = "seismic")
+plt.scatter(data["X"],data["Y"],c=data["geoZ"],s=0.01,marker="s",cmap = "seismic")
 plt.title("geoportal1 - Z")
 plt.colorbar(label="Difference")
 plt.show()
 
-plt.scatter(dataset["X"],dataset["Y"],c=dataset["upZ"],s=0.01,marker="s",cmap = "seismic")
+plt.scatter(data["X"],data["Y"],c=data["upZ"],s=0.01,marker="s",cmap = "seismic")
 plt.title("up421 - Z")
 plt.colorbar(label="Difference")
 plt.show()
 
-plt.hist(dataset["geoZ"],bins=100)
+plt.hist(data["geoZ"],bins=100)
 plt.show()
-plt.hist(dataset["upZ"],bins=100)
+plt.hist(data["upZ"],bins=100)
 plt.show()
