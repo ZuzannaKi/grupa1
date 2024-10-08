@@ -1,3 +1,6 @@
+# README
+### A short descritption of the project
+#### group 1
 **LAB 1**
 
 Project's authors: Zuzanna Kiełbasa, Katarzyna Zabdyrska, Paulina Kępa, Patryk Susz, Jakub Niemiec
