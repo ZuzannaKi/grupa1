@@ -15,7 +15,7 @@
 
 **Division of the tasks:**
 - Zuzanna Kiełbasa:
-- Katarzyna Zabdyrska: synchronization of the code's parts
+- Katarzyna Zabdyrska:
 - Paulina Kępa: update of README file
 - Patryk Susz: 
 - Jakub Niemiec: writting a main code of height difference calculations and chart
